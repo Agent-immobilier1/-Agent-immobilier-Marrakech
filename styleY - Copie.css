@@ -1,0 +1,120 @@
+*{
+    font-family:'Times New Roman', sans-serif;
+}
+.div_p_r{
+         margin:0;
+         padding:1%;
+         text-align:center;
+         background:black;
+}
+.div_p{
+         margin:0;
+         padding:1%;
+         padding-top:0.5%;
+         padding-bottom:0.5%;
+         background:black;
+         border:2px groove lemonchiffon;//antiquewhite;
+         color:white;
+         font-size:20px;
+         line-height:30px;
+         text-align:justify;
+}
+.a{
+  margin:0px;
+  padding:0px;
+  text-decoration:none;
+  color:white; //#efc82c#2C2C2C  #ecc22b
+  text-align:right;
+  vertical-align:middle;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.a:hover {
+          color:#FD0000;
+          text-decoration:underline;
+}
+
+h1{
+    background:#FD0000; /*#6299dc#00BFE8#00B4E8#00B4E8#00B4E8#0098F2#00B6F2#00CEE6#00ADDF#01C0E9#02AEF0#00A4F2#0397EF#00CAF4; #6fd8fe #00BFE8#7ca7f5*/
+    margin:0px;
+    padding:0px;
+    padding-top:12px;
+    padding-bottom:12px;
+    width:100%;
+    color:white;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+}
+
+#Werbung_B {
+          margin:0;
+          padding:0;
+          width:100%;
+          background:black;
+          text-align:center;
+          vertical-align:middle;
+}
+
+#Werbung {
+          background:black;
+          margin:0px;
+          padding:0.25%;
+          width:99.5%;
+          vertical-align:middle;
+          color:#493029;
+          text-align:center;//float:left;
+}
+
+h3{
+         margin:0px;
+         padding:0px;
+         padding-top:10px;
+         padding-bottom:10px;
+         font-size:20px;
+         text-align:center;
+         color:white;
+         font-weight:bold;
+}
+
+h2{
+          margin:0px;
+          margin-left:0.25%;
+          margin-right:0.25%;
+          padding:0px;
+          padding-top:0.25%;
+          padding-bottom:0.25%;
+          background:black;
+          color:#ff0029; //#ff0029;#FD0000;//#ee9064;//#f4ea8f;
+          text-align:center;
+          font-size:18px;
+          line-height:25px;
+          font-weight:bold;
+}
+
+.bild{
+
+          margin:0;
+          padding:0;
+          width:100%;
+          text-align:center;
+          background:black;
+}
+.tab2{
+         margin:0px;
+         padding:0.5%;
+         padding-bottom:0%;
+         width:99%;
+         color:black;
+         text-align:center;
+         vertical-align:middle;
+         font-size:22px;
+         font-weight:bold;
+         background:white;
+}
+body {
+        background:black;
+        margin:0;
+        padding:0;
+}
