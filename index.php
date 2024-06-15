@@ -1,26 +1,5 @@
 ﻿<?php
-$datei="C_y5_Ar.txt";
-
-$stellen = 10;
-
-if(file_exists($datei) ){
-/*  && !session_is_registered ('zaehler')  $vari = 'zaehler'; session_register ( 'vari' );*/
-
-  $fp=fopen($datei,"r+");
-  $zahl=fgets($fp,$stellen);
-  $zahl++;
-  rewind($fp);
-  flock($fp,2);
-  fputs($fp,$zahl,$stellen);
-  flock($fp,3);
-  fclose($fp);
-
-  }else{
-  $fp=fopen($datei,"w");
-  $zahl="1";
-  fputs($fp,$zahl,$stellen);
-  fclose($fp);
-}?>
+?>
 
 <!DOCTYPE HTML>
 
